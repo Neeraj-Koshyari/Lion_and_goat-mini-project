@@ -47,135 +47,7 @@
      map3.set('div15','1');
      map3.set('div16','1');
      map3.set('div17','1');
-     
-
-
-    //  var arr1=new Array(11);
-    //  arr1[0]='0';
-    //  arr1[1]='0';
-    //  arr1[2]='0';
-    //  arr1[3]='0';
-    //  arr1[4]='1';
-    //  arr1[5]='1';
-    //  arr1[6]='0';
-    //  arr1[7]='0';
-    //  arr1[8]='0';
-    //  arr1[9]='0';
-    //  arr1[10]='0';
-    //  var arr2=new Array(11);
-    //  arr2[0]='0';
-    //  arr2[1]='0';
-    //  arr2[2]='0';
-    //  arr2[3]='0';
-    //  arr2[4]='0';
-    //  arr2[5]='0';
-    //  arr2[6]='0';
-    //  arr2[7]='0';
-    //  arr2[8]='0';
-    //  arr2[9]='1';
-    //  arr2[10]='1';
-    //  var arr3=new Array(11);
-    //  arr3[0]='0';
-    //  arr3[1]='0';
-    //  arr3[2]='0';
-    //  arr3[3]='0';
-    //  arr3[4]='1';
-    //  arr3[5]='0';
-    //  arr3[6]='0';
-    //  arr3[7]='0';
-    //  arr3[8]='0';
-    //  arr3[9]='0';
-    //  arr3[10]='1';
-    //  var arr4=new Array(11);
-    //  arr4[0]='0';
-    //  arr4[1]='1';
-    //  arr4[2]='0';
-    //  arr4[3]='1';
-    //  arr4[4]='0';
-    //  arr4[5]='1';
-    //  arr4[6]='0';
-    //  arr4[7]='0';
-    //  arr4[8]='0';
-    //  arr4[9]='0';
-    //  arr4[10]='1';
-    //  var arr5=new Array(11);
-    //  arr5[0]='0';
-    //  arr5[1]='1';
-    //  arr5[2]='0';
-    //  arr5[3]='0';
-    //  arr5[4]='1';
-    //  arr5[5]='0';
-    //  arr5[6]='1';
-    //  arr5[7]='1';
-    //  arr5[8]='0';
-    //  arr5[9]='0';
-    //  arr5[10]='0';
-    //  var arr6=new Array(11);
-    //  arr6[0]='0';
-    //  arr6[1]='0';
-    //  arr6[2]='0';
-    //  arr6[3]='0';
-    //  arr6[4]='0';
-    //  arr6[5]='1';
-    //  arr6[6]='0';
-    //  arr6[7]='1';
-    //  arr6[8]='0';
-    //  arr6[9]='0';
-    //  arr6[10]='0';
-    //  var arr7=new Array(11);
-    //  arr7[0]='0';
-    //  arr7[1]='0';
-    //  arr7[2]='0';
-    //  arr7[3]='0';
-    //  arr7[4]='0';
-    //  arr7[5]='1';
-    //  arr7[6]='1';
-    //  arr7[7]='0';
-    //  arr7[8]='1';
-    //  arr7[9]='1';
-    //  arr7[10]='0';
-    //  var arr8=new Array(11);
-    //  arr8[0]='0';
-    //  arr8[1]='0';
-    //  arr8[2]='0';
-    //  arr8[3]='0';
-    //  arr8[4]='0';
-    //  arr8[5]='0';
-    //  arr8[6]='0';
-    //  arr8[7]='1';
-    //  arr8[8]='0';
-    //  arr8[9]='1';
-    //  arr8[10]='0';
-    //  var arr9=new Array(11);
-    //  arr9[0]='0';
-    //  arr9[1]='0';
-    //  arr9[2]='1';
-    //  arr9[3]='0';
-    //  arr9[4]='0';
-    //  arr9[5]='0';
-    //  arr9[6]='0';
-    //  arr9[7]='1';
-    //  arr9[8]='1';
-    //  arr9[9]='0';
-    //  arr9[10]='1';
-    //  var arr10=new Array(11);
-    //  arr10[0]='0';
-    //  arr10[1]='0';
-    //  arr10[2]='1';
-    //  arr10[3]='1';
-    //  arr10[4]='1';
-    //  arr10[5]='0';
-    //  arr10[6]='0';
-    //  arr10[7]='0';
-    //  arr10[8]='0';
-    //  arr10[9]='1';
-    //  arr10[10]='0';
-     
-
-  
-    
-
-
+	  
     function allowDrop(ev) 
     {
         ev.preventDefault();
@@ -249,7 +121,7 @@
 
           
         // }
-        ////LOGIC FOR CROW WIN////////
+        ////LOGIC FOR GOAT WIN////////
         
         
          
@@ -258,7 +130,7 @@
 
 
 
-        ////////////LOGIC FOR EAGLE KILLING CROW//////////
+        ////////////LOGIC FOR LION KILLING CROW//////////
         if(data=='div18')
         {
           if(map2.get(data)=='div1'&&ev.target.id=='div10')
@@ -828,7 +700,7 @@
         str=str+data+" was dropped on "+ev.target.id+"\n";
         ev.target.appendChild(dataele);
         map3.set(data,'0');
-        //////LOGIC FOR CROW WIN//////
+        //////LOGIC FOR GOAT WIN//////
         if(map2.get('div18')=='div1')
         {
             if((map1.get('div4')!='0')&&(map1.get('div5')!='0')&&(map1.get('div10')!='0')&&(map1.get('div7')!='0'))
